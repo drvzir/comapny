@@ -1,0 +1,122 @@
+body{
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    background: #fafafa;
+    margin: 0px;
+    padding: 0px;
+
+}
+footer a{
+    color: white;
+    
+}
+.butn a{
+    text-decoration: none;
+}
+
+.butn:hover{
+    color: grey;
+}
+.butn{
+    background: #0b003d;
+    height: 70px;
+    
+}
+.button{
+    background:#0b003d;
+    height: 40px;
+    width: 130px;
+    color: white;
+    top: 5px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+}
+header{
+    /*background: #424242;*/
+    /*background: #040067;*/
+    background: #0b003d;
+    color: white;
+    /*position: relative;*/
+    
+}
+header h1{
+    position: relative;
+    bottom: 20px;
+}
+.array-inputs{
+    position: relative;
+    left: 8%;
+}
+.logo {
+    position: relative;
+    height: 100px;
+    bottom: 30px;
+    left: -15px;
+    width: 100px;
+    float: left;
+    margin: 0;
+    
+}
+
+
+
+.align-items-end{
+    position: relative;
+    bottom: 20px;
+}
+footer {
+    background: #0b003d;
+    color: white;
+    height: 130px;
+}
+.fa {
+    color: white;
+}
+.fa:hover{
+    color: blue;
+}
+#array_container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 35%;
+    bottom: 10px;
+    width: 30%;
+    height: 50vh;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.algorithms button:hover{
+    background: #00c853;
+    border-color: #00c853;
+}
+
+.algorithms button:focus{
+    background: #00c853;
+    border-color: #00c853;
+}
+
+.btn_disable{
+    cursor: not-allowed;
+    pointer-events: none;
+
+    
+    color: #c0c0c0;
+    background-color: #ffffff;
+
+}
+
+.algorithms .selected {
+    background: #00c853;
+    border-color: #00c853;
+}
+
+
+@media (max-width: 575px){
+    header h1{
+        font-size: 150%;
+    }
+}
